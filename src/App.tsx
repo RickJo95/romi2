@@ -305,8 +305,8 @@ const SwipeCard: React.FC<SwipeCardProps> = ({ profile, onSwipe }) => {
           alt={`Ricardo ${profile.id}`}
           className="w-full h-full object-cover object-center"
         />
-        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
-        <p className="text-2xl font-bold text-white">
+        <div className="absolute bottom-12 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-6 pt-10 pb-18">
+          <p className="text-2xl font-bold text-white">
             Ricardo <span className="font-normal">{profile.age}</span>
           </p>
           <p className="text-lg mt-2 text-white">{profile.footer}</p>
