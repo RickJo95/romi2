@@ -317,19 +317,19 @@ const SwipeCard: React.FC<SwipeCardProps> = ({ profile, onSwipe }) => {
           onClick={() => onSwipe("left")}
           className="w-16 h-16 rounded-full bg-white shadow-lg flex items-center justify-center hover:scale-110 transition-transform"
         >
-          <X className="text-red-500" size={32} />
+          <X className="text-red-500 fill-red-500" size={32} />
         </button>
         <button
           onClick={() => onSwipe("up")}
           className="w-16 h-16 rounded-full bg-white shadow-lg flex items-center justify-center hover:scale-110 transition-transform"
         >
-          <Star className="text-blue-500" size={32} />
+          <Star className="text-blue-500 fill-blue-500" size={32} />
         </button>
         <button
           onClick={() => onSwipe("right")}
           className="w-16 h-16 rounded-full bg-white shadow-lg flex items-center justify-center hover:scale-110 transition-transform"
         >
-          <Heart className="text-green-500" size={32} />
+          <Heart className="text-green-500 fill-green-500" size={32} />
         </button>
       </div>
     </motion.div>
