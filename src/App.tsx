@@ -494,7 +494,7 @@ const TinderClone: React.FC = () => {
                                 <div className="text-center w-fit h-auto mx-auto my-2">
                                   <img src={jerry} alt="Jerry happy" />
                                 </div>
-                                Tenemos una cita en el Dann Carlton el 14 de febrero a las 8:30 p.m. Ven preciosota. (O sea, más de lo normal)
+                                Tenemos una cita 14 de febrero a las 7:30 p.m. Ven preciosota. (O sea, más de lo normal)
                               </AlertDialogDescription>
                             </AlertDialogHeader>
                             <AlertDialogFooter>
