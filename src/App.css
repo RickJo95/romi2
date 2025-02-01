@@ -1,0 +1,91 @@
+body {
+    background-color: #fff; /* Fondo claro para una app más similar a Tinder */
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+  }
+  
+  .swiper-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .card {
+    background-color: #fff; /* Fondo blanco para las tarjetas */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .yes-button, .no-button {
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .yes-button {
+    background-color: #4caf50; /* Verde */
+    color: #fff;
+  }
+  
+  .no-button {
+    background-color: #f44336; /* Rojo */
+    color: #fff;
+  }
+  
+  .yes-button:hover {
+    background-color: #388e3c; /* Verde oscuro */
+  }
+  
+  .no-button:hover {
+    background-color: #d32f2f; /* Rojo oscuro */
+  }
+  
+  .final-card {
+    text-align: center;
+    background-color: #ff4081; /* Color especial para la tarjeta final */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  }
+  
+  .restart-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #c2185b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cards-left {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #666;
+    font-size: 16px;
+  }
