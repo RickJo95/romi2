@@ -305,14 +305,14 @@ const SwipeCard: React.FC<SwipeCardProps> = ({ profile, onSwipe }) => {
           alt={`Ricardo ${profile.id}`}
           className="w-full h-full object-cover object-center"
         />
-        <div className="absolute bottom-12 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-6 pt-10 pb-34">
+        <div className="absolute bottom-12 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-6 pt-10 pb-42">
           <p className="text-2xl font-bold text-white">
             Ricardo <span className="font-normal">{profile.age}</span>
           </p>
           <p className="text-lg mt-2 text-white">{profile.footer}</p>
         </div>
       </div>
-      <div className="absolute bottom-20 left-0 right-0 flex justify-center gap-6 z-10">
+      <div className="absolute bottom-28 left-0 right-0 flex justify-center gap-6 z-10">
         <button
           onClick={() => onSwipe("left")}
           className="w-16 h-16 rounded-full bg-white shadow-lg flex items-center justify-center hover:scale-110 transition-transform"
